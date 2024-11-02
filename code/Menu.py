@@ -18,11 +18,14 @@ class Menu:
         menu_option = 0
         pygame.mixer_music.load('./asset/Menu.mp3')
         pygame.mixer_music.play(-1)
+        
         while True:
             # DRAW IMAGES
             self.window.blit(source=self.surf, dest=self.rect)
             self.menu_text(50, "Mountain", C_ORANGE, ((WIN_WIDTH / 2), 70))
             self.menu_text(50, "Shooter", C_ORANGE, ((WIN_WIDTH / 2), 120))
+            self.menu_text(25, "Christian Lima Rufino da Silva", C_YELLOW, ((130), 10))
+            self.menu_text(25, "RU:4523446", C_YELLOW, ((510), 10))
 
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
