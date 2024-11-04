@@ -17,6 +17,6 @@ GAME MENU
 GAME LEVEL 3
 
 <img>
- <p align="center">
+ <p align="left">
   <img src="./asset/Nivel3.png" width="50%">
 </p>
